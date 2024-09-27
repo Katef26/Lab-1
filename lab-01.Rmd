@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - UK Attractions"
-author: "INSERT NAME HERE"
+author: "Kate Francis"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -15,7 +15,7 @@ library(tidyverse)
 
 ```{r load-data, message=FALSE}
 # Do not edit this code chunk!
-visitors <- read_csv("data/UK-visitor-numbers.csv")
+visitors <- read.csv("data/UK-visitor-numbers.csv")
 ```
 
 
